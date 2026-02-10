@@ -1,8 +1,9 @@
 # μpb-Zig Minimal Example   
 This is a minimal example of the use of upb-zig in a Zig project.
 
+If you haven't installed the `protoc` compiler, follow the instructions in [Protocol Buffer Compiler Installation](https://protobuf.dev/installation/).
 
-
+If you haven't installed the `Zig` compiler, follow the instructions in [Zig Getting Started](https://ziglang.org/learn/getting-started/).
 
 from the sdl minimal example
 Recommanded setup on Windows if you don't have Visual Studio (e.g. you only have Visual Studio Code)
