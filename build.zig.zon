@@ -1,0 +1,13 @@
+.{
+    .name = .upb_zig_minimal_example,
+    .version = "0.0.1",
+    .dependencies = .{
+        .upb_runtime = .{
+            .url = "https://github.com/sadosystems/upb-zig/releases/download/v0.0.0b/upb-zig-runtime.tar.gz",
+            .hash = "upb_runtime-0.0.0-AAAAAOmDPQBk_zFqudzNawy3K1FGRsigZtlBprmTTVe8",
+        },
+    },
+    .minimum_zig_version = "0.15.2",
+    .paths = .{""},
+    .fingerprint = 0x988e5fbbf407660d,
+}
