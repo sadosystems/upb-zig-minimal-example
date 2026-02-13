@@ -26,4 +26,11 @@ pub fn build(b: *std.Build) void {
     run_cmd.step.dependOn(b.getInstallStep());
     const run_step = b.step("run", "Run the example");
     run_step.dependOn(&run_cmd.step);
+
+    const dep_tests = b.addTest(.{
+        .root_module = upb_zig.module("upb_zig"),
+    });
+    const run_dep_tests = b.addRunArtifact(dep_tests);
+    const test_step = b.step("test", "Run dependency tests");
+    test_step.dependOn(&run_dep_tests.step);
 }

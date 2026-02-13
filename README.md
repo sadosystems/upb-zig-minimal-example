@@ -6,5 +6,5 @@ If you are new to `Zig`, follow the instructions in [Zig Getting Started](https:
 
 Run
 ```shell
-zig zig build run
+zig build run
 ```
